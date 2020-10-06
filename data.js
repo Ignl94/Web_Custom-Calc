@@ -8,6 +8,7 @@ const data = [
     sugar: 10,
     fiber: 2.4,
     fat: 0.3,
+    img: "./img/blueberries-1245724_1280_70x50.jpg",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const data = [
     sugar: 7,
     fiber: 7.6,
     fat: 0.7,
+    img: "./img/black-raspberries-1296x728-header_70x50.jpg",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const data = [
     sugar: 12.2,
     fiber: 2.6,
     fat: 0.3,
+    img: "./img/banana.jpg",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const data = [
     sugar: 6.5,
     fiber: 3.3,
     fat: 0.4,
+    img: "./img/strawberries-1_70x50.jpg",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ const data = [
     sugar: 46,
     fiber: 5,
     fat: 1.3,
+    img: "./img/mango.jpg",
   },
   {
     id: 6,
@@ -58,5 +63,8 @@ const data = [
     sugar: 6,
     fiber: 2.1,
     fat: 0.4,
+    img: "./img/kiwi.jpg",
   },
 ];
+
+export default data;

@@ -4,70 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MY CUSTOM CALCULATOR</title>
-    <style type = text/css>
-    #calc_outline {
-      border: 3px black solid;
-      height: 30em;
-      width: 40%; 
-      position: relative; 
-      margin-left: auto;
-      margin-right: auto;
-      top: 5em;
-    }
-    #display {
-      border: 1px solid green;
-      height: 20%;
-      margin-bottom: 1em;
-    }
-    #input_sect {
-      display: flex;
-      flex-direction: row;
-    }
-    #fruits {
-      display: flex;
-      flex-direction: column;
-      margin-right: 10em;
-      margin-left: 5em;
-    }
-    
-    button {
-      width: 50px;
-      height: 50px;
-    }
-    #fruits > button {
-      margin-bottom: 1em;
-      width: 70px;
-    }
-    #fruits > button > img {
-      width: 100%;
-      margin: 0;
-    }
+    <style type="text/css">
+      #calc_outline {
+        border: 3px black solid;
+        height: 30em;
+        width: 40%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: 5em;
+      }
+      #display {
+        border: 1px solid green;
+        height: 20%;
+        margin-bottom: 1em;
+      }
+      #input_sect {
+        display: flex;
+        flex-direction: row;
+      }
+      #fruits {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10em;
+        margin-left: 5em;
+      }
+      button {
+        width: 50px;
+        height: 50px;
+      }
+      #fruits > button {
+        margin-bottom: 1em;
+        width: 70px;
+      }
+      #fruits > button > img {
+        width: 100%;
+        margin: 0;
+      }
     </style>
   </head>
   <body>
     <div id="calc_outline">
       <div id="display"></div>
       <div id="input_sect">
-        <div id="fruits">
-          <button class="fruit_buttons">
-            <img src = "./img/mango.jpg"/>
-          </button>
-          <button class="fruit_buttons">
-            <img src = "./img/black-raspberries-1296x728-header_70x50.jpg" />
-          </button>
-          <button class="fruit_buttons">
-            <img src = "./img/blueberries-1245724_1280_70x50.jpg" />
-          </button>
-          <button class="fruit_buttons">
-            <img src = "./img/banana.jpg" />
-          </button>
-          <button class="fruit_buttons">
-            <img src = "./img/kiwi.jpg" />
-          </button>
-          <button class="fruit_buttons">
-            <img src = "./img/strawberries-1_70x50.jpg" />
-          </button>
-        </div>
+        <div id="fruits"></div>
         <div id="numbers">
           <button class="button">1</button>
           <button class="button">2</button>
@@ -85,5 +65,6 @@
         </div>
       </div>
     </div>
+    <script type="module" src="/script.js"></script>
   </body>
 </html>
