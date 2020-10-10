@@ -7,17 +7,21 @@
     <style type="text/css">
       #calc_outline {
         border: 3px black solid;
-        height: 30em;
-        width: 40%;
+        height: 42em;
+        width: 50%;
         position: relative;
         margin-left: auto;
         margin-right: auto;
         top: 5em;
       }
-      #display {
-        border: 1px solid green;
-        height: 20%;
+      #display,
+      #smoothie {
+        height: 50%;
         margin-bottom: 1em;
+      }
+
+      #full_display {
+        border-bottom: 2px solid black;
       }
       #input_sect {
         display: flex;
@@ -45,24 +49,14 @@
   </head>
   <body>
     <div id="calc_outline">
-      <div id="display"></div>
+      <div id="full_display">
+        <div id="display"></div>
+        <div id="smoothie"></div>
+      </div>
+
       <div id="input_sect">
         <div id="fruits"></div>
-        <div id="numbers">
-          <button class="button">1</button>
-          <button class="button">2</button>
-          <button class="button">3</button>
-          <br />
-          <button class="button">4</button>
-          <button class="button">5</button>
-          <button class="button">6</button>
-          <br />
-          <button class="button">7</button>
-          <button class="button">8</button>
-          <button class="button">9</button>
-          <br />
-          <button class="button">0</button>
-        </div>
+        <div id="blend"></div>
       </div>
     </div>
     <script type="module" src="/script.js"></script>
